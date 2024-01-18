@@ -21,7 +21,7 @@ func _physics_process(delta):
 	# As good practice, you should replace UI actions with custom gameplay actions.
 	var direction = Input.get_axis("ui_left", "ui_right")
 	if Input.is_key_pressed(KEY_UP):
-		position.y = 100
+		position.y = 150
 	else:
 		position.y = 200
 	if direction:
