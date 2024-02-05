@@ -61,3 +61,5 @@ func player_animations():
 		jump_count = 0
 	else:
 		gravity = base_gravity
+		
+

@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://bpashwc6axbvo"]
 
-[ext_resource type="Script" path="res://Scenes/time.gd" id="1_4fjys"]
+[ext_resource type="Script" path="res://Scripts/time.gd" id="1_2jumu"]
 
 [node name="Time" type="Label"]
 offset_right = 40.0
@@ -8,4 +8,4 @@ offset_bottom = 23.0
 text = "
 "
 horizontal_alignment = 2
-script = ExtResource("1_4fjys")
+script = ExtResource("1_2jumu")

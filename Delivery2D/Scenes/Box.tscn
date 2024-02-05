@@ -1,80 +1,16 @@
-[gd_scene load_steps=4 format=3 uid="uid://hdh1n66tadmy"]
+[gd_scene load_steps=4 format=3 uid="uid://d4fd3vstnx85f"]
 
 [ext_resource type="Texture2D" uid="uid://cypibyb4bpxv1" path="res://icon.svg" id="1_v3nf3"]
+[ext_resource type="Script" path="res://Scripts/Box.gd" id="1_yw50t"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_p841e"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ny8d7"]
 
-[sub_resource type="GDScript" id="GDScript_k16fi"]
-script/source = "extends CharacterBody2D
-
-const base_gravity = 500
-@export var speed = 175
-@export var gravity = base_gravity
-@export var jump_height = -250
-var is_jumping = false
-var jump_count = 0
-@export var dash_distance = 35
-var dash_cooldown = 0
-@export var dash_timer = 30
-
-func _physics_process(delta):
-	velocity.y += gravity * delta
-	horizontal_movement()
-	move_and_slide()
-
-	if !is_jumping:
-		player_animations()
-
-func horizontal_movement():
-	var horizontal_input = Input.get_action_strength(\"ui_right\") - Input.get_action_strength(\"ui_left\")
-	velocity.x = horizontal_input * speed
-
-func player_animations():
-	if dash_cooldown >= 0:
-		dash_cooldown -= 1
-		print(dash_cooldown)
-		
-	if Input.is_action_pressed(\"ui_left\") || Input.is_action_just_released(\"ui_jump\"):
-		$AnimatedSprite2D.flip_h = true
-		$AnimatedSprite2D.play(\"run\")
-
-	if Input.is_action_pressed(\"ui_right\") || Input.is_action_just_released(\"ui_jump\"):
-		$AnimatedSprite2D.flip_h = false
-		$AnimatedSprite2D.play(\"run\")
-
-	if !Input.is_anything_pressed():
-		$AnimatedSprite2D.play(\"idle\")
-	 
-	if Input.is_action_just_pressed(\"ui_jump\") and jump_count <= 0: #This is jank. Why isn't this one???
-		jump_count += 1
-		velocity.y = jump_height
-		$AnimatedSprite2D.play(\"jump\")
-	
-	if Input.is_action_just_pressed(\"ui_dash\") and Input.is_action_pressed(\"ui_right\") and dash_cooldown <= 0:
-		dash_cooldown = dash_timer
-		print(dash_cooldown)
-		$AnimatedSprite2D.flip_h = false
-		$AnimatedSprite2D.play(\"jump\")
-		position.x += dash_distance
-	
-	if Input.is_action_just_pressed(\"ui_dash\") and Input.is_action_pressed(\"ui_left\") and dash_cooldown <= 0:
-		dash_cooldown = dash_timer
-		print(dash_cooldown)
-		$AnimatedSprite2D.flip_h = true
-		$AnimatedSprite2D.play(\"jump\")
-		position.x -= dash_distance
-
-	if is_on_floor():
-		jump_count = 0
-	else:
-		gravity = base_gravity
-"
-
-[node name="CharacterBody2D" type="CharacterBody2D"]
-
-[node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("1_v3nf3")
+[node name="Box" type="CharacterBody2D"]
+script = ExtResource("1_yw50t")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("RectangleShape2D_p841e")
-script = SubResource("GDScript_k16fi")
+shape = SubResource("RectangleShape2D_ny8d7")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.15, 0.15)
+texture = ExtResource("1_v3nf3")

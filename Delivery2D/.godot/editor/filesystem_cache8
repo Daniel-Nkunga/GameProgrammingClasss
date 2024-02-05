@@ -1,6 +1,6 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1707111204
-export_presets.cfg::TextFile::-1::1707031657::0::1::::<><>::
+::res://::1707149630
+export_presets.cfg::TextFile::-1::1707111798::0::1::::<><>::
 icon.svg::CompressedTexture2D::6488828066170700968::1707023535::1707023544::1::::<><>::
 ::res://Assests/::1707093049
 Kings and Pigs.png::CompressedTexture2D::7130177658990848349::1706813844::1707023914::1::::<><>::
@@ -107,16 +107,17 @@ WTF Out (24x8).png::CompressedTexture2D::9034081065619875713::1706813849::170702
 ::res://Assests/14-TileSets/::1707023914
 Decorations (32x32).png::CompressedTexture2D::522466367122843746::1706813849::1707023914::1::::<><>::
 Terrain (32x32).png::CompressedTexture2D::8940723822031157285::1706813850::1707023914::1::::<><>::
-::res://Assests/Backgrounds/::1707097555
+::res://Assests/Backgrounds/::1707111247
 Backgrounds.png::CompressedTexture2D::1380709986348870006::1707111244::1707111247::1::::<><>::
 ::res://GUI/::1707023563
-::res://Scenes/::1707111206
-Main.tscn::PackedScene::6744731833072466038::1707111206::0::1::::<><>::uid://ccolejp6e88jy::::res://Scenes/Player.tscn<>uid://tw3decgbuq7g::::res://Assests/Backgrounds/Backgrounds.png<>res://Scripts/TileMap.gd
-Player.tscn::PackedScene::4942795870612550966::1707111206::0::1::::<><>::res://Scripts/Player.gd<>uid://cmyf57jlf4u0u::::res://Assests/01-King Human/Idle (78x58).png<>uid://cpunh5effguby::::res://Assests/01-King Human/Run (78x58).png<>uid://fnl3o47re7by::::res://Assests/01-King Human/Jump (78x58).png<>uid://bs742kmiu5cor::::res://Scenes/Score.tscn<>uid://bpashwc6axbvo::::res://Scenes/time.tscn
-Box.tscn::PackedScene::497987220445679756::1707111206::0::1::::<><>::uid://cypibyb4bpxv1::::res://icon.svg
-time.gd::GDScript::-1::1707110549::0::1::::<>Label<>::
-time.tscn::PackedScene::3440359904703433460::1707111206::0::1::::<><>::res://Scenes/time.gd
-Score.tscn::PackedScene::3717689510695802917::1707111206::0::1::::<><>::
-::res://Scripts/::1707109172
+::res://Scenes/::1707149715
+Main.tscn::PackedScene::6744731833072466038::1707149701::0::1::::<><>::uid://ccolejp6e88jy::::res://Scenes/Player.tscn<>uid://tw3decgbuq7g::::res://Assests/Backgrounds/Backgrounds.png<>res://Scripts/TileMap.gd<>uid://hdh1n66tadmy::::res://Scenes/Box.tscn
+Player.tscn::PackedScene::4942795870612550966::1707149702::0::1::::<><>::res://Scripts/Player.gd<>uid://cmyf57jlf4u0u::::res://Assests/01-King Human/Idle (78x58).png<>uid://cpunh5effguby::::res://Assests/01-King Human/Run (78x58).png<>uid://fnl3o47re7by::::res://Assests/01-King Human/Jump (78x58).png<>uid://bs742kmiu5cor::::res://Scenes/Score.tscn<>uid://bpashwc6axbvo::::res://Scenes/time.tscn
+Box.tscn::PackedScene::9205293690238598765::1707149775::0::1::::<><>::uid://cypibyb4bpxv1::::res://icon.svg
+Box.gd::GDScript::-1::1707149782::0::1::::<>CharacterBody2D<>::
+Score.tscn::PackedScene::3717689510695802917::1707149702::0::1::::<><>::
+time.tscn::PackedScene::3440359904703433460::1707149702::0::1::::<><>::res://Scripts/time.gd
+::res://Scripts/::1707149719
 Player.gd::GDScript::-1::1707109172::0::1::::<>CharacterBody2D<>::
 TileMap.gd::GDScript::-1::1707098908::0::1::::<>TileMap<>::
+time.gd::GDScript::-1::1707110549::0::1::::<>Label<>::
