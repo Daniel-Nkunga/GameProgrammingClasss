@@ -1,0 +1,120 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1707109867
+icon.svg::CompressedTexture2D::2261065940769634322::1706814029::1706814037::1::::<><>::
+::res://Assets/::1706815084
+::res://Assets/Kings and Pigs/::1706813844
+::res://Assets/Kings and Pigs/Aseprite/::1706813844
+::res://Assets/Kings and Pigs/Sprites/::1706852085
+Kings and Pigs.png::CompressedTexture2D::7130177658990848349::1706813844::1706815090::1::::<><>::
+Ladder.png::CompressedTexture2D::7394876723251843725::1706852083::1706852085::1::::<><>::
+::res://Assets/Kings and Pigs/Sprites/01-King Human/::1706815090
+Attack (78x58).png::CompressedTexture2D::8861751563339507132::1706813844::1706815090::1::::<><>::
+Dead (78x58).png::CompressedTexture2D::5386728856181336374::1706813844::1706815090::1::::<><>::
+Door In (78x58).png::CompressedTexture2D::1119047383563179113::1706813844::1706815090::1::::<><>::
+Door Out (78x58).png::CompressedTexture2D::5583218593834966616::1706813844::1706815090::1::::<><>::
+Fall (78x58).png::CompressedTexture2D::1616770622780233758::1706813844::1706815090::1::::<><>::
+Ground (78x58).png::CompressedTexture2D::2084373618004696346::1706813844::1706815090::1::::<><>::
+Hit (78x58).png::CompressedTexture2D::1895318123445253956::1706813844::1706815090::1::::<><>::
+Idle (78x58).png::CompressedTexture2D::5665011411079084046::1706813844::1706815090::1::::<><>::
+Jump (78x58).png::CompressedTexture2D::378499799745782826::1706813844::1706815090::1::::<><>::
+Run (78x58).png::CompressedTexture2D::5867764980615021482::1706813844::1706815090::1::::<><>::
+::res://Assets/Kings and Pigs/Sprites/02-King Pig/::1707092991
+Attack (38x28).png::CompressedTexture2D::5460036440304567999::1706813844::1706815090::1::::<><>::
+Dead (38x28).png::CompressedTexture2D::305461325020952113::1706813844::1706815090::1::::<><>::
+Fall (38x28).png::CompressedTexture2D::7383111107680342067::1706813845::1706815090::1::::<><>::
+Ground (38x28).png::CompressedTexture2D::1306241013491356677::1706813845::1706815090::1::::<><>::
+Hit (38x28).png::CompressedTexture2D::8984906508297149768::1706813845::1706815090::1::::<><>::
+Idle (38x28).png::CompressedTexture2D::8582800264165145794::1706813845::1706815090::1::::<><>::
+Jump (38x28).png::CompressedTexture2D::7119871441272980422::1706813845::1706815090::1::::<><>::
+Run (38x28).png::CompressedTexture2D::7367917287182330248::1706813845::1706815090::1::::<><>::
+::res://Assets/Kings and Pigs/Sprites/03-Pig/::1706815090
+Attack (34x28).png::CompressedTexture2D::2045020773075735553::1706813845::1706815090::1::::<><>::
+Dead (34x28).png::CompressedTexture2D::9066555414568906833::1706813845::1706815090::1::::<><>::
+Fall (34x28).png::CompressedTexture2D::8456489266174002303::1706813845::1706815090::1::::<><>::
+Ground (34x28).png::CompressedTexture2D::8739302434996925042::1706813845::1706815090::1::::<><>::
+Hit (34x28).png::CompressedTexture2D::7461027724008884841::1706813845::1706815090::1::::<><>::
+Idle (34x28).png::CompressedTexture2D::7894061840820582017::1706813845::1706815090::1::::<><>::
+Jump (34x28).png::CompressedTexture2D::2406015156977098760::1706813845::1706815090::1::::<><>::
+Run (34x28).png::CompressedTexture2D::6671444903940014090::1706813845::1706815090::1::::<><>::
+::res://Assets/Kings and Pigs/Sprites/04-Pig Throwing a Box/::1706815090
+Idle (26x30).png::CompressedTexture2D::7031565037474564073::1706813845::1706815090::1::::<><>::
+Picking Box (26x30).png::CompressedTexture2D::3289716763273283840::1706813846::1706815090::1::::<><>::
+Run (26x30).png::CompressedTexture2D::1987044575810707477::1706813846::1706815090::1::::<><>::
+Throwing Box (26x30).png::CompressedTexture2D::561944656430694566::1706813846::1706815090::1::::<><>::
+::res://Assets/Kings and Pigs/Sprites/05-Pig Thowing a Bomb/::1706815090
+Idle (26x26).png::CompressedTexture2D::3410530705313891041::1706813846::1706815090::1::::<><>::
+Picking Bomb (26x26).png::CompressedTexture2D::457490802783002214::1706813846::1706815090::1::::<><>::
+Run (26x26).png::CompressedTexture2D::321133281510990617::1706813846::1706815090::1::::<><>::
+Throwing Boom (26x26).png::CompressedTexture2D::9115128255223761626::1706813846::1706815090::1::::<><>::
+::res://Assets/Kings and Pigs/Sprites/06-Pig Hide in the Box/::1706815090
+Fall (26x20).png::CompressedTexture2D::8348185442329559287::1706813846::1706815090::1::::<><>::
+Ground (26x20).png::CompressedTexture2D::4166555388282665833::1706813846::1706815090::1::::<><>::
+Jump (26x20).png::CompressedTexture2D::7811594571234362657::1706813846::1706815090::1::::<><>::
+Jump Anticipation (26x20).png::CompressedTexture2D::4252176148840419438::1706813846::1706815090::1::::<><>::
+Looking Out (26x20).png::CompressedTexture2D::51577731040501565::1706813846::1706815090::1::::<><>::
+::res://Assets/Kings and Pigs/Sprites/07-Pig With a Match/::1706815090
+Lighting the Cannon (26x18).png::CompressedTexture2D::4744034900541939165::1706813846::1706815090::1::::<><>::
+Lighting the Match (26x18).png::CompressedTexture2D::8700766458979931710::1706813847::1706815090::1::::<><>::
+Match On (26x18).png::CompressedTexture2D::5171745394330326645::1706813847::1706815090::1::::<><>::
+::res://Assets/Kings and Pigs/Sprites/08-Box/::1706815090
+Box Pieces 1.png::CompressedTexture2D::2585811404702065767::1706813847::1706815090::1::::<><>::
+Box Pieces 2.png::CompressedTexture2D::8167547160692200923::1706813847::1706815090::1::::<><>::
+Box Pieces 3.png::CompressedTexture2D::2961525259907183260::1706813847::1706815090::1::::<><>::
+Box Pieces 4.png::CompressedTexture2D::5546542472301786016::1706813847::1706815090::1::::<><>::
+Hit.png::CompressedTexture2D::3052493044353636715::1706813847::1706815090::1::::<><>::
+Idle.png::CompressedTexture2D::2478567550493936987::1706813847::1706815090::1::::<><>::
+::res://Assets/Kings and Pigs/Sprites/09-Bomb/::1706815090
+Bomb Off.png::CompressedTexture2D::8668004981925854019::1706813847::1706815090::1::::<><>::
+Bomb On (52x56).png::CompressedTexture2D::7438771635173656961::1706813847::1706815090::1::::<><>::
+Boooooom (52x56).png::CompressedTexture2D::7124095241628687135::1706813847::1706815090::1::::<><>::
+::res://Assets/Kings and Pigs/Sprites/10-Cannon/::1706815090
+Cannon Ball.png::CompressedTexture2D::3677280992505631955::1706813847::1706815090::1::::<><>::
+Idle.png::CompressedTexture2D::6622599246199219448::1706813848::1706815090::1::::<><>::
+Shoot (44x28).png::CompressedTexture2D::6780377265347129642::1706813848::1706815090::1::::<><>::
+::res://Assets/Kings and Pigs/Sprites/11-Door/::1706815090
+Closiong (46x56).png::CompressedTexture2D::4106634808126242600::1706813848::1706815090::1::::<><>::
+Idle.png::CompressedTexture2D::6323507995240181190::1706813848::1706815090::1::::<><>::
+Opening (46x56).png::CompressedTexture2D::8687862463071256210::1706813848::1706815090::1::::<><>::
+::res://Assets/Kings and Pigs/Sprites/12-Live and Coins/::1706815090
+Big Diamond Hit (18x14).png::CompressedTexture2D::5599271973165780859::1706813848::1706815090::1::::<><>::
+Big Diamond Idle (18x14).png::CompressedTexture2D::8400472691830921422::1706813848::1706815090::1::::<><>::
+Big Heart Hit (18x14).png::CompressedTexture2D::6475817275332590131::1706813848::1706815090::1::::<><>::
+Big Heart Idle (18x14).png::CompressedTexture2D::2411666777967264995::1706813848::1706815090::1::::<><>::
+Live Bar.png::CompressedTexture2D::3462343362219583483::1706813848::1706815090::1::::<><>::
+Numbers (6x8).png::CompressedTexture2D::8001164952746831884::1706813848::1706815090::1::::<><>::
+Small Diamond (18x14).png::CompressedTexture2D::4421846250498486360::1706813848::1706815090::1::::<><>::
+Small Heart Hit (18x14).png::CompressedTexture2D::9025197235283377443::1706813848::1706815090::1::::<><>::
+Small Heart Idle (18x14).png::CompressedTexture2D::5330224802890754846::1706813848::1706815090::1::::<><>::
+::res://Assets/Kings and Pigs/Sprites/13-Dialogue Boxes/::1706815090
+!!! In (24x8).png::CompressedTexture2D::3942821700258648363::1706813848::1706815090::1::::<><>::
+!!! Out (24x8).png::CompressedTexture2D::2259684414692869946::1706813849::1706815090::1::::<><>::
+Attack In (24x8).png::CompressedTexture2D::5104447344698004430::1706813849::1706815090::1::::<><>::
+Attack Out (24x8).png::CompressedTexture2D::7695572754100733014::1706813849::1706815090::1::::<><>::
+Boom In (24x8).png::CompressedTexture2D::6230843380327256040::1706813849::1706815090::1::::<><>::
+Boom Out (24x8).png::CompressedTexture2D::1285435538222799534::1706813849::1706815090::1::::<><>::
+Dead In (24x8).png::CompressedTexture2D::521832049631892811::1706813849::1706815090::1::::<><>::
+Dead Out (24x8).png::CompressedTexture2D::5829709265625434439::1706813849::1706815090::1::::<><>::
+Hello In (24x8).png::CompressedTexture2D::6217097304391087436::1706813849::1706815090::1::::<><>::
+Hello Out (24x8).png::CompressedTexture2D::4521561755717100068::1706813849::1706815090::1::::<><>::
+Hi In (24x8).png::CompressedTexture2D::8010443542020824418::1706813849::1706815090::1::::<><>::
+Hi Out (24x8).png::CompressedTexture2D::1008203484885231596::1706813849::1706815090::1::::<><>::
+Interrogation In (24x8).png::CompressedTexture2D::5217969317186302804::1706813849::1706815090::1::::<><>::
+Interrogation Out (24x8).png::CompressedTexture2D::5612434809371272417::1706813849::1706815090::1::::<><>::
+Loser In (24x8).png::CompressedTexture2D::3724341448800933942::1706813849::1706815090::1::::<><>::
+Loser Out (24x8).png::CompressedTexture2D::6395243755691459535::1706813849::1706815090::1::::<><>::
+No In (24x8).png::CompressedTexture2D::214647846935752929::1706813849::1706815090::1::::<><>::
+No Out (24x8).png::CompressedTexture2D::837764337744401390::1706813849::1706815090::1::::<><>::
+WTF In (24x8).png::CompressedTexture2D::4099513621799794305::1706813849::1706815090::1::::<><>::
+WTF Out (24x8).png::CompressedTexture2D::9034081065619875713::1706813849::1706815090::1::::<><>::
+::res://Assets/Kings and Pigs/Sprites/14-TileSets/::1706815090
+Decorations (32x32).png::CompressedTexture2D::522466367122843746::1706813849::1706815090::1::::<><>::
+Terrain (32x32).png::CompressedTexture2D::8940723822031157285::1706813850::1706815090::1::::<><>::
+::res://GUI/::1706814684
+::res://Scenes/::1707024828
+ladder.tscn::PackedScene::736843156276803084::1707024828::0::1::::<><>::res://Scripts/ladder.gd<>uid://ddmesll1m8ppl::::res://Assets/Kings and Pigs/Sprites/Ladder.png
+Main.tscn::PackedScene::8011015082032929612::1707016537::0::1::::<><>::uid://bt7hjvrvvo3b5::::res://Scenes/player.tscn<>uid://d0m7od32nk6bh::::res://Assets/Kings and Pigs/Sprites/14-TileSets/Terrain (32x32).png
+player.tscn::PackedScene::3786511022274956240::1707016188::0::1::::<><>::res://Scripts/player.gd<>uid://dyix0vc0nmfgm::::res://Assets/Kings and Pigs/Sprites/01-King Human/Attack (78x58).png<>uid://cmyf57jlf4u0u::::res://Assets/Kings and Pigs/Sprites/01-King Human/Idle (78x58).png<>uid://p7csuh30sprl::::res://Assets/Kings and Pigs/Sprites/01-King Human/Door In (78x58).png<>uid://2adu3e8we5i3::::res://Assets/Kings and Pigs/Sprites/01-King Human/Hit (78x58).png<>uid://ci0mvwwqu2v7k::::res://Assets/Kings and Pigs/Sprites/01-King Human/Dead (78x58).png<>uid://fnl3o47re7by::::res://Assets/Kings and Pigs/Sprites/01-King Human/Jump (78x58).png<>uid://cpunh5effguby::::res://Assets/Kings and Pigs/Sprites/01-King Human/Run (78x58).png
+::res://Scripts/::1707024828
+Global.gd::GDScript::-1::1706852598::0::1::::<>Node<>::
+ladder.gd::GDScript::-1::1706853111::0::1::::<>Area2D<>::
+player.gd::GDScript::-1::1706852598::0::1::::<>CharacterBody2D<>::

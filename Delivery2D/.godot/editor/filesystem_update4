@@ -1,0 +1,8 @@
+res://Scenes/Main.tscn
+res://Scenes/Player.tscn
+res://Scenes/Box.tscn
+res://Scripts/Box.gd
+res://Scenes/Score.tscn
+res://Scripts/Player.gd
+res://Scenes/time.tscn
+res://Scenes/time.gd

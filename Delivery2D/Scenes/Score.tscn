@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://bs742kmiu5cor"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_r4qp1"]
+outline_size = 2
+outline_color = Color(0, 0, 0, 1)
+shadow_color = Color(0.0745098, 0.0745098, 0.0745098, 0)
+
+[node name="Score" type="Label"]
+z_index = 99
+offset_right = 40.0
+offset_bottom = 23.0
+text = "0"
+label_settings = SubResource("LabelSettings_r4qp1")
