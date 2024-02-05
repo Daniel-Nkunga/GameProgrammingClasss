@@ -1,7 +1,3 @@
 res://Scenes/Main.tscn
 res://Scenes/Player.tscn
 res://Scenes/Box.tscn
-res://Scenes/Score.tscn
-res://Scenes/time.tscn
-res://Scripts/Box.gd
-res://Scripts/Player.gd
