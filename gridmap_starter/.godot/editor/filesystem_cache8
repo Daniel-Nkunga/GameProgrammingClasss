@@ -1,0 +1,16 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1707248359
+default_env.tres::Environment::-1::1707248335::0::1::::<><>::
+GridMap_Demo.tscn::PackedScene::-1::1707248336::0::1::::<><>::res://MeshLibrary.tres
+icon.png::CompressedTexture2D::8604207586484003044::1707248336::1707248360::1::::<><>::
+MeshLibrary.tres::MeshLibrary::-1::1707248335::0::1::::<><>::res://assets/dae/golf.material
+MeshLibrary_Source.tscn::PackedScene::-1::1707248336::0::1::::<><>::res://assets/dae/course_parts.dae
+README.md::TextFile::-1::1707248336::0::1::::<><>::
+::res://assets/::1707248336
+texture.png::CompressedTexture2D::5125674617587750167::1707248336::1707248364::1::::<><>::
+::res://assets/dae/::1707248336
+course_parts1.dae::PackedScene::2506420930344685687::1707248336::1707248361::1::::<><>::uid://cfa6d2tigrdgx::::res://assets/texture.png
+course_parts.dae::PackedScene::596957590139343301::1707248336::1707248362::1::::<><>::uid://cfa6d2tigrdgx::::res://assets/texture.png
+course_test.dae::PackedScene::4797371414835069202::1707248336::1707248362::1::::<><>::uid://cfa6d2tigrdgx::::res://assets/texture.png
+golf.material::StandardMaterial3D::-1::1707248336::0::1::::<><>::res://assets/texture.png
+golf_windmill.dae::PackedScene::8992936442554978364::1707248336::1707248363::1::::<><>::uid://cfa6d2tigrdgx::::res://assets/texture.png
