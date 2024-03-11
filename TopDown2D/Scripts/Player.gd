@@ -6,16 +6,18 @@ var bulletPath = preload("res://Scenes/Bullet.tscn")
 
 func _physics_process(delta):
 	#Debugging movement
-	var directionx = Input.get_axis("ui_left", "ui_right")
-	if directionx:
-		velocity.x = directionx * SPEED
-	else:
-		velocity.x = move_toward(velocity.x, 0, SPEED)
-	var directiony = Input.get_axis("ui_up", "ui_down")
-	if directiony:
-		velocity.y = directiony * SPEED
-	else:
-		velocity.y = directiony * SPEED
+	#var directionx = Input.get_axis("ui_left", "ui_right")
+	#if directionx:
+		#velocity.x = directionx * SPEED
+	#else:
+		#velocity.x = move_toward(velocity.x, 0, SPEED)
+	#var directiony = Input.get_axis("ui_up", "ui_down")
+	#if directiony:
+		#velocity.y = directiony * SPEED
+	#else:
+		#velocity.y = directiony * SPEED
+	velocity.x = 0
+	velocity.y = 0
 	$Node2D.look_at(get_global_mouse_position())
 	#Shooting
 	var mouse_position = get_global_mouse_position()

@@ -10,6 +10,3 @@ func change_vel(vel):
 func _physics_process(delta):
 	var collision_info = move_and_collide(bullet_velocity.normalized() * delta * speed)
 
-func _on_area_2d_body_entered(body):
-	queue_free()
-	pass
