@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://8p8o8dbuerog"]
+
+[ext_resource type="Script" path="res://Scripts/Bullet.gd" id="1_k3ocm"]
+[ext_resource type="Texture2D" uid="uid://bi2mkpmh6xvya" path="res://Assets/TileMap.png" id="2_mpcw0"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_sm0st"]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_k3ocm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_sm0st")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_mpcw0")
+region_enabled = true
+region_rect = Rect2(32, 0, 16, 16)
