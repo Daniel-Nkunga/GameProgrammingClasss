@@ -21,6 +21,3 @@ shape = SubResource("ConvexPolygonShape3D_xp1b4")
 [node name="TwistPivot" type="Node3D" parent="."]
 
 [node name="PitchPivot" type="Node3D" parent="TwistPivot"]
-
-[node name="Camera3D" type="Camera3D" parent="TwistPivot/PitchPivot"]
-transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 5, 0)
