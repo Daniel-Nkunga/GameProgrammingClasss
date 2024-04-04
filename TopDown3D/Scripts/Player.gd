@@ -24,12 +24,3 @@ func _process(delta: float) -> void:
 			$Camera3D.position = Vector3(0, .5, 1)
 			$Camera3D.rotate(Vector3(0, 0.5, 1), deg_to_rad(0))
 			cameraToggle = 0
-
-
-		
-	#if Input.is_action_just_pressed("ui_enter"):
-		#$Camera3D.position = Vector3(5, 0, 5)
-		#print($Camera3D.position)
-	#if Input.is_action_just_pressed("ui_space"):
-		#$Camera3D.position = Vector3(0, 0, 0)
-		#print($Camera3D.position)

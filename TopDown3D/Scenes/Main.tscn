@@ -1,6 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://taum3ayujky6"]
+[gd_scene load_steps=9 format=3 uid="uid://taum3ayujky6"]
 
 [ext_resource type="PackedScene" uid="uid://bmhloio41kxj1" path="res://Scenes/Player.tscn" id="1_6x718"]
+[ext_resource type="Script" path="res://Scenes/Camera3D.gd" id="2_hp6xm"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_yta4p"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -19,6 +20,18 @@ size = Vector2(10, 10)
 
 [sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_41b5a"]
 data = PackedVector3Array(5, 0, 5, -5, 0, 5, 5, 0, -5, -5, 0, 5, -5, 0, -5, 5, 0, -5)
+
+[sub_resource type="GDScript" id="GDScript_3u3o7"]
+script/source = "extends SubViewport
+
+var viewport_initial_size = Vector2()
+
+@onready var viewport = $SubViewportContainer
+@onready var viewport_sprite = $SubViewportContainer/SubViewport
+
+func _ready():
+	pass
+"
 
 [node name="Main" type="Node3D"]
 
@@ -41,7 +54,7 @@ shape = SubResource("ConcavePolygonShape3D_41b5a")
 [node name="SubViewportContainer" type="SubViewportContainer" parent="."]
 layout_direction = 3
 anchors_preset = -1
-anchor_left = 0.89
+anchor_left = 0.256
 anchor_right = 1.0
 anchor_bottom = 0.21
 offset_left = -1024.0
@@ -50,9 +63,10 @@ grow_horizontal = 0
 
 [node name="SubViewport" type="SubViewport" parent="SubViewportContainer"]
 handle_input_locally = false
-size = Vector2i(256, 128)
+size = Vector2i(1024, 512)
 size_2d_override_stretch = true
 render_target_update_mode = 4
+script = SubResource("GDScript_3u3o7")
 
 [node name="RigidBody3D" parent="SubViewportContainer/SubViewport" instance=ExtResource("1_6x718")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 0)
@@ -61,3 +75,4 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 0)
 
 [node name="Camera3D" type="Camera3D" parent="SubViewportContainer"]
 transform = Transform3D(1, 0, 0, 0, 0.707107, 0.707107, 0, -0.707107, 0.707107, 0, 5, 8)
+script = ExtResource("2_hp6xm")
